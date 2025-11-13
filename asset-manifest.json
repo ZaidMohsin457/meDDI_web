@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZaidMohsin457/meDDI_web.git/static/css/main.d1bbd8cf.css",
+    "main.js": "/ZaidMohsin457/meDDI_web.git/static/js/main.132a19f1.js",
+    "index.html": "/ZaidMohsin457/meDDI_web.git/index.html",
+    "main.d1bbd8cf.css.map": "/ZaidMohsin457/meDDI_web.git/static/css/main.d1bbd8cf.css.map",
+    "main.132a19f1.js.map": "/ZaidMohsin457/meDDI_web.git/static/js/main.132a19f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1bbd8cf.css",
+    "static/js/main.132a19f1.js"
+  ]
+}
