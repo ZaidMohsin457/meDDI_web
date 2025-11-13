@@ -24,7 +24,7 @@ const Navigation = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <div className="nav-logo" onClick={() => scrollToSection('hero')}>
+        <div className="nav-logo" onClick={() => scrollToSection('hero')} href="/">
           <span className="logo-text">meDDI</span>
           <span className="logo-tagline">Medication Safety</span>
         </div>
