@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ZaidMohsin457/meDDI_web.git/static/css/main.d1bbd8cf.css",
-    "main.js": "/ZaidMohsin457/meDDI_web.git/static/js/main.132a19f1.js",
-    "index.html": "/ZaidMohsin457/meDDI_web.git/index.html",
-    "main.d1bbd8cf.css.map": "/ZaidMohsin457/meDDI_web.git/static/css/main.d1bbd8cf.css.map",
-    "main.132a19f1.js.map": "/ZaidMohsin457/meDDI_web.git/static/js/main.132a19f1.js.map"
+    "main.css": "/meDDI_web/static/css/main.d1bbd8cf.css",
+    "main.js": "/meDDI_web/static/js/main.132a19f1.js",
+    "index.html": "/meDDI_web/index.html",
+    "main.d1bbd8cf.css.map": "/meDDI_web/static/css/main.d1bbd8cf.css.map",
+    "main.132a19f1.js.map": "/meDDI_web/static/js/main.132a19f1.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bbd8cf.css",
