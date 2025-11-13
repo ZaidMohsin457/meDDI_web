@@ -1,0 +1,138 @@
+.collaborators-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.collaborators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.collaborator-card {
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  border: 2px solid rgba(37, 99, 235, 0.1);
+  transition: all 0.3s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collaborator-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.collaborator-logo-container {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.collaborator-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.collaborator-logo-placeholder {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+}
+
+.placeholder-text {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.collaborator-info {
+  width: 100%;
+}
+
+.collaborator-type {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.collaborator-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.collaborator-description {
+  color: #6b7280;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.collaboration-note {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.collaboration-note p {
+  color: #1e40af;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.collaboration-note strong {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .collaborators-section {
+    padding: 4rem 1rem;
+  }
+
+  .collaborators-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .collaborator-card {
+    padding: 2rem;
+  }
+
+  .collaborator-logo-container {
+    width: 150px;
+    height: 120px;
+  }
+}
+
