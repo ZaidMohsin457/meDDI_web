@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/meDDI_web/static/css/main.d1bbd8cf.css",
-    "main.js": "/meDDI_web/static/js/main.1f317c3b.js",
+    "main.js": "/meDDI_web/static/js/main.9595aa63.js",
     "index.html": "/meDDI_web/index.html",
     "main.d1bbd8cf.css.map": "/meDDI_web/static/css/main.d1bbd8cf.css.map",
-    "main.1f317c3b.js.map": "/meDDI_web/static/js/main.1f317c3b.js.map"
+    "main.9595aa63.js.map": "/meDDI_web/static/js/main.9595aa63.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bbd8cf.css",
-    "static/js/main.1f317c3b.js"
+    "static/js/main.9595aa63.js"
   ]
 }
