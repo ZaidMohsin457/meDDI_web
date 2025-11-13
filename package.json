@@ -2,7 +2,7 @@
   "name": "meddi-website",
   "version": "1.0.0",
   "description": "meDDI - Medication Safety System Website",
-  "homepage": "https://github.com/ZaidMohsin457/meDDI_web.git",
+  "homepage": "https://ZaidMohsin457.github.io/meDDI_web",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

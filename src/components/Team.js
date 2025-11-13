@@ -8,7 +8,7 @@ const Team = () => {
       role: 'Principal Supervisor',
       department: 'Department of Computer Science,GIKI',
       email: 'ahmar.rashid@giki.edu.pk',
-      image: '/team/supervisor1.jpg' // Placeholder - replace with actual images
+      image: `${process.env.PUBLIC_URL}/team/supervisor1.jpg` // Placeholder - replace with actual images
     }
     // Add more supervisors here
   ];
@@ -19,7 +19,7 @@ const Team = () => {
       role: 'Clinical Advisor',
       organization: 'Al-Raazi Hospital Rawalpindi',
       email: 'collaborator@hospital.com',
-      image: '/team/collaborator1.jpg'
+      image: `${process.env.PUBLIC_URL}/team/collaborator1.jpg`
     }
     // Add more collaborators here
   ];
@@ -30,21 +30,21 @@ const Team = () => {
       role: 'Full Stack Developer',
       specialization: 'Mobile & Backend',
       email: 'zaidmohsin45@gmail.com',
-      image: '/team/developer1.jpg'
+      image: `${process.env.PUBLIC_URL}/team/developer1.jpg`
     },
     {
       name: 'Haidar Ali Khan',
       role: 'AI Developer',
       specialization: 'AI/ML Engineer',
       email: 'haiderali786.haris@gmail.com',
-      image: '/team/developer2.jpg'
+      image: `${process.env.PUBLIC_URL}/team/developer2.jpg`
     },
     {
       name: 'Ali Faisal',
       role: 'AI Developer',
       specialization: 'AI/ML Engineer',
       email: 'alifaisalkhn@gmail.com',
-      image: '/team/developer3.jpg'
+      image: `${process.env.PUBLIC_URL}/team/developer3.jpg`
     }
     
     // Add more developers here

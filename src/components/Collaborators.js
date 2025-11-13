@@ -7,7 +7,7 @@ const Collaborators = () => {
       name: 'Al-Raazi Hospital Rawalpindi',
       type: 'Healthcare Partner',
       description: 'Providing access to prescription data and clinical expertise for model development and validation.',
-      logo: '/logos/al-raazi-logo.png', // Placeholder path - replace with actual logo
+      logo: `${process.env.PUBLIC_URL}/logos/al-raazi-logo.png`, // Placeholder path - replace with actual logo
       website: '#'
     }
     // Add more collaborators here as needed
